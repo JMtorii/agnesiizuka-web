@@ -17,7 +17,7 @@ $(document).ready(function() {
 	
 	$('#home').height($(window).height()+50);
 	
-	$.backstretch('assets/images/header-bg.jpg');
+	$.backstretch('assets/images/header-bg.png');
 	
 	if($(window).scrollTop() > ($(window).height()+50)){
 		$('.backstretch').hide();
